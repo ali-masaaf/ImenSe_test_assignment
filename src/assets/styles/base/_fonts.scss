@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+$poppins: (
+    "lato-light": '../../fonts/Lato/Lato-Light.ttf',
+    "lato-regular": '../../fonts/Lato/Lato-Regular.ttf',
+    "lato-bold": '../../fonts/Lato/Lato-Bold.ttf',
+    "lato-black": '../../fonts/Lato/Lato-Black.ttf',
+    "lato-lightItalic": '../../fonts/Lato/Lato-LightItalic.ttf',
+    "lato-regularItalic": '../../fonts/Lato/Lato-LightItalic.ttf',
+    "lato-boldItalic": '../../fonts/Lato/Lato-BoldItalic.ttf',
+    "lato-blackItalic": '../../fonts/Lato/Lato-BlackItalic.ttf'
+);
+
+@each $name, $url in $poppins {
+    @font-face {
+        font-family: $name;
+        src: url($url);
+    }
+}
+
+
