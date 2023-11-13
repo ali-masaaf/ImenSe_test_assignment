@@ -1,0 +1,9 @@
+/**
+ *Application layout grid
+ */
+ .body__app {
+    display: grid;
+    grid-template-rows: 4.375rem 1fr; /* Navbar takes auto height, main area takes remaining space */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  

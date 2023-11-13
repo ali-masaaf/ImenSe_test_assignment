@@ -1,0 +1,32 @@
+.navbar__search{
+    width: 24.5rem;
+    height: 2rem;
+    background-color: $area-color;
+    border-radius: 0.3125rem;
+    margin-left: 3.2rem;
+    padding: 0 0.8rem;
+    .search__icon{
+        width: 0.9375rem;
+        height: 0.9375rem;
+        background: url('../../icons/searchIcon.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+    }
+    .search__input-text{
+        font-family: 'lato';
+        background-color: $area-color;
+        padding-left: 0.7rem;
+        color: $text-2;
+        border-style: none;
+        outline: none;
+        &::placeholder {
+            color: $text4-color;
+            font-size: $subtitle-2;
+            opacity: 1; /* Firefox */
+        }
+        &:focus-visible {
+            border-style: none;
+        }
+    }
+}

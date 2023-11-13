@@ -1,0 +1,12 @@
+/**
+ *Navbar layout felxbox
+ */
+.body__navbar{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar__search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
