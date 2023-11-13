@@ -10,3 +10,17 @@
     justify-content: flex-start;
     align-items: center;
 }
+.navbar__user-account{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.69rem;
+}
+
+.user-account__profile{
+    display: flex;
+    align-items: end;
+    gap:0.31rem;
+}

@@ -1,8 +1,106 @@
+/**
+* Navbar component style
+**/
 .body__navbar{
-    align-items: center;
-    background-color: $forground-color;
-    padding: 0 6.075vw;
     box-shadow:$navbar-shadow;
+    background-color: $forground-colour;
+    align-items: center;
+    padding: 0 6.075vw;
     
+    /**
+    * Navbar links component style
+    **/
+    .navbar__links{
+      color: $text3-colour;
+      font-size: 3px; /*this value is to go arround the font small padding problem*/
+      & > * {
+        color: $text3-colour;
+        color: #B6B6B6;
+        font-size: 0.875rem;
+        font-style: normal;
+        line-height: normal;
+        font-family: 'lato-semibold';
+        margin-left: 1.95rem;
+        display: inline-block;
+      }
 
+      [class$="--active"] {
+        color: $selection-colour;
+      }
+          
+      .links__users {
+        .users__text{
+          font-family: 'lato-semibold';
+          color: $text3-colour;
+        }
+        
+        .users__icon{
+          height: 0.55rem;
+          width: 0.55rem;
+          margin-left: 0.5rem;
+          display: inline-block;
+          background: url('../../icons/arrow.svg');
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          border-style: none;
+        }
+      }
+
+      .links__users--down {
+        .users__icon{
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    /**
+    * Navbar user account component style
+    **/
+    .navbar__user-account{
+      margin-left: auto;
+      
+      .user-account__notification {
+        width: 0.9375rem;
+        height: 1.14256rem;
+        display: inline-block;
+        background: url('../../icons/notification.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+      }
+      .user-account__language{
+        width: 1.1875rem;
+        height: 1.1875rem;
+        display: inline-block;
+        background: url('../../icons/english.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+      }
+      .profile__pictue{
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        background: url('../../images/profile.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+      }
+
+      .profile__informations{
+        display: inline-block;
+        .informations__full-name{
+          display: block;
+          font-family: 'lato-semibold';
+          font-size: $subtitle-2;
+          color: $text2-colour;
+        }
+        .informations__role{
+          font-family: 'lato';
+          display: block;
+          font-size: $text-3;
+          color: $text3-colour;
+        }
+      }
+    }
   }

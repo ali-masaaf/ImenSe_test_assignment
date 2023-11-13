@@ -1,16 +1,18 @@
 import React from 'react';
+import InputSearch from '../components/inputSearch'; 
+import NavbarLinks from '../components/navbarLinks';
+import NavbarUserAccout from '../components/navbarUserAsccount';
 
 const navbar = () => {
     return(
-        <div className="body__navbar">
-            <div className='navbar__logo'/>
-            <div className='navbar__search'>
-                <div className='search__icon'/>
-                <input type='text' placeholder='Quick search ...' className='search__input-text'>
-                   
-                </input>
-            </div>
-        </div>
+        <ul className="body__navbar">
+            <li className='navbar__logo'/>
+            <li className='navbar__search'>
+                <InputSearch/>
+            </li>
+            <NavbarLinks/>
+            <NavbarUserAccout/>
+        </ul>
     );
 }
 
