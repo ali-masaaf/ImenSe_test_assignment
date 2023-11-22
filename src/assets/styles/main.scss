@@ -28,11 +28,14 @@
 
 // 5. Components
 @import 
+  'components/pofileMiniature',
+  'components/languagesCard',
+  'components/navbarUserAsccount',
   'components/inputSearch',
   'components/app.scss',
   'components/main.scss',
-  'components/navbar.scss',
-  'components/navbarlogo.scss';
+  'components/navbarLinks.scss',
+  'components/navbar.scss';
 
 
 // 6. Page-specific styles

@@ -1,0 +1,48 @@
+.container__navbar-links{
+    color: $text3-colour;
+    font-size: 3px; /*this value is to go arround the font small padding problem*/
+    & > * {
+      color: $text3-colour;
+      
+      color: #B6B6B6;
+      font-size: 0.875rem;
+      font-style: normal;
+      line-height: normal;
+      font-family: 'lato-semibold';
+      margin-left: 1.95rem;
+      display: inline-block;
+    }
+
+    [class$="--active"] {
+      color: $selection-colour;
+    }
+     
+    .navbar-links__users:active{
+      
+    }
+    
+    .navbar-links__users {
+      cursor: pointer;
+      .users__text{
+        font-family: 'lato-semibold';
+        color: $text3-colour;
+      }
+      
+      .users__icon{
+        height: 0.55rem;
+        width: 0.55rem;
+        margin-left: 0.5rem;
+        display: inline-block;
+        background: url('../../icons/arrow.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+      }
+    }
+
+    .navbar-links__users--down {
+      .users__icon{
+        transform: rotate(180deg);
+      }
+    }
+  }

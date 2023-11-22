@@ -5,12 +5,12 @@
     display: flex;
     justify-content: flex-start;
 }
-.navbar__search{
+.container__input-search{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.navbar__user-account{
+.container__navbar-user-account{
     display: flex;
     justify-content: flex-end;
     flex-flow: row;
@@ -19,8 +19,29 @@
     gap: 1.69rem;
 }
 
-.user-account__profile{
+.container_languages-card{
     display: flex;
-    align-items: end;
+    flex-direction: column;
+    gap: 0.62rem;
+}
+
+@each  $language in $languages {
+.languages-card__#{$language}{ 
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+.container__profile-miniature{
+    display: flex;
+    align-items: flex-end;
     gap:0.31rem;
+}
+
+.account-managment__settings, .account-managment__policies, .menu__logout{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
 }

@@ -1,11 +1,11 @@
-.navbar__search{
+.container__input-search{
     width: 24.5rem;
     height: 2rem;
     background-color: $area-colour;
     border-radius: 0.3125rem;
     margin-left: 3.2rem;
     padding: 0 0.8rem;
-    .search__icon{
+    .input-search__icon{
         width: 0.9375rem;
         height: 0.9375rem;
         background: url('../../icons/searchIcon.svg');
@@ -13,11 +13,11 @@
         background-repeat: no-repeat;
         border-style: none;
     }
-    .search__input-text{
+    .input-search__text{
         font-family: 'lato';
         background-color: $area-colour;
         padding-left: 0.7rem;
-        color: $text-4;
+        color: $text2-colour;
         border-style: none;
         outline: none;
         &::placeholder {

@@ -1,0 +1,30 @@
+.container__profile-miniature{
+    cursor: pointer;
+    position: relative;
+    .profile-miniature__pictue{
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        background: url('../../images/profile.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+    }
+
+    .profile-miniature__informations{
+        display: inline-block;
+        .informations__full-name{
+            display: block;
+            font-family: 'lato-semibold';
+            font-size: $subtitle-2;
+            color: $text2-colour;
+        }
+
+        .informations__role{
+            font-family: 'lato';
+            display: block;
+            font-size: $text-3;
+            color: $text3-colour;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.container_languages-card{
+    color: $text4-colour;
+    font-size: $text-2;
+    border-radius: $default-radius;
+    background-color: $forground-colour;
+    padding: 1rem;
+    box-shadow: $card-shadow;
+    [class$="--focus"] {
+        color: $text1-colour;
+    }
+    :hover{
+        color: $text1-colour;
+        cursor: pointer;
+    }
+}
+
+@each  $language in $languages {
+    .languages-card__#{$language}{
+        .#{$language}__icon{
+        cursor: pointer;
+        width: 1.1875rem;
+        height: 1.1875rem;
+        display: inline-block;
+        background: url('../../icons/'+$language+'.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+    }
+  }
+}

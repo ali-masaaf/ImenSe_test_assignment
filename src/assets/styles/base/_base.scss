@@ -67,5 +67,12 @@ a {
   list-style-type: none; /* Remove default enumeration */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-  pointer-events: none;
+}
+
+/**
+ * Dispabe default styles to link underline whene hovred.
+ */
+a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  /* Additional styles for hover state if needed */
 }
