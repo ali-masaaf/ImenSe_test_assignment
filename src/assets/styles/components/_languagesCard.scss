@@ -1,15 +1,15 @@
 .container_languages-card{
-    color: $text4-colour;
+    color: $text4-color;
     font-size: $text-2;
     border-radius: $default-radius;
-    background-color: $forground-colour;
+    background-color: $forground-color;
     padding: 1rem;
     box-shadow: $card-shadow;
     [class$="--focus"] {
-        color: $text1-colour;
+        color: $text1-color;
     }
     :hover{
-        color: $text1-colour;
+        color: $text1-color;
         cursor: pointer;
     }
 }

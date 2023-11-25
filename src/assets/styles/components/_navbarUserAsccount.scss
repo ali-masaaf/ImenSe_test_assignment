@@ -20,37 +20,43 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border-style: none;
+        .language__container{
+            display: none;
+            position: absolute;
+            top: 3.28rem;
+            left: 2.6rem;
+            .container__menu-hiden-hover-area{
+                display: none;
+                position: absolute;
+                top: -3rem;
+                left: 0;
+                display: inline-block;
+                height: 3.3rem;
+                width: 3rem;
+            }
+            @import 'languagesCard';
+        }
+        .language__container--down{
+            display: block;
+            .container__menu-hiden-hover-area{
+                display: inline-block;
+            }
+        }
     }
     
-    .navbar-user-account__languages-dropdown-card{
-        display: none;
-        position: absolute;
-        top: 3.28rem;
-        left: 2.6rem;
-        .languages-dropdown-card__menu-hiden-hover-area{
-            display: inline-block;
-            position: absolute;
-            top: -3rem;
-            left: 0;
-            display: inline-block;
-            height: 3.3rem;
-            width: 3rem;
-        }
-        @import 'languagesCard';
-    }
     
     .navbar-user-account__languages-dropdown-card--down{
-        display: block;
+
         .languages-dropdown-card__menu-hiden-hover-area{
             display: inline-block;
         }
     }
     
-    .navbar-user-account__profile-miniature:hover{
+   /*.navbar-user-account__profile-miniature:hover{
         .profile__menu{
             display: block;
         }
-    }
+    }*/
     .navbar-user-account__profile-miniature{
         @import 'pofileMiniature';
 
@@ -65,27 +71,27 @@
         .profile__menu{
             display: none;
             cursor: default;
-            color: $text1-colour;
+            color: $text1-color;
             position: absolute;
             top: 3.28rem;
             padding: 1rem 0.618rem 1rem 0.618rem;
-            color: $text4-colour;
+            color: $text4-color;
             font-size: $text-2;
             border-radius: $default-radius;
-            background-color: $forground-colour;
+            background-color: $forground-color;
             box-shadow: $card-shadow;
             
             .menu__personal-information{
-            border-bottom: 1px solid #{$text4-colour}50;
+            border-bottom: 1px solid #{$text4-color}50;
             .personal-information__group{
                 font-family: 'lato-bold';
-                color: $text1-colour;
+                color: $text1-color;
                 font-size: $text-2;
                 display: inline-block;
                 margin-bottom: 0.5rem;
             }
             .personal-information__email{
-                color: $text3-colour;
+                color: $text3-color;
                 display: inline-block;
                 padding-bottom: 0.5rem;
             }
@@ -106,7 +112,7 @@
                 border-style: none;
                 }
                 .settings__text{
-                color: $text2-colour;
+                color: $text2-color;
                 font-size: $text-1;
                 width: max-content;
                 }
@@ -125,14 +131,14 @@
                 border-style: none;
                 }
                 .policies__text{
-                color: $text2-colour;
+                color: $text2-color;
                 font-size: $text-1;
                 width: max-content;
                 }
             }
             }
             .menu__account-managment{
-            border-bottom: 1px solid #{$text4-colour}50;
+            border-bottom: 1px solid #{$text4-color}50;
             font-family: 'lato';
             }
             .menu__logout{
@@ -151,7 +157,7 @@
 
                 .logout__text{
                     cursor: pointer;
-                    color: $text2-colour;
+                    color: $text2-color;
                     font-size: $text-1;
                     width: max-content;
                 }

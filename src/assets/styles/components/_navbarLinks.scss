@@ -1,8 +1,8 @@
 .container__navbar-links{
-    color: $text3-colour;
+    color: $text3-color;
     font-size: 3px; /*this value is to go arround the font small padding problem*/
     & > * {
-      color: $text3-colour;
+      color: $text3-color;
       
       color: #B6B6B6;
       font-size: 0.875rem;
@@ -14,7 +14,7 @@
     }
 
     [class$="--active"] {
-      color: $selection-colour;
+      color: $selection-color;
     }
      
     .navbar-links__users:active{
@@ -25,7 +25,7 @@
       cursor: pointer;
       .users__text{
         font-family: 'lato-semibold';
-        color: $text3-colour;
+        color: $text3-color;
       }
       
       .users__icon{

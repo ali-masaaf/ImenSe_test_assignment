@@ -1,0 +1,92 @@
+.container__profile-menu{
+    display: block;
+    cursor: default;
+    color: $text1-color;
+    padding: 1rem 0.618rem 1rem 0.618rem;
+    color: $text4-color;
+    font-size: $text-2;
+    border-radius: $default-radius;
+    background-color: $forground-color;
+    box-shadow: $card-shadow;
+    
+    .profile-menu__personal-information{
+        border-bottom: 1px solid #{$text4-color}50;
+        .personal-information__group{
+            font-family: 'lato-bold';
+            color: $text1-color;
+            font-size: $text-2;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        .personal-information__email{
+            color: $text3-color;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+    }
+
+    .profile-menu__account-managment{
+        border-bottom: 1px solid #{$text4-color}50;
+        font-family: 'lato';
+        .account-managment__settings{
+            cursor: pointer;
+            margin-top: 0.5rem;
+            .settings__icon{
+                cursor: pointer;
+                width: 1rem;
+                height: 1.001rem;
+                display: inline-block;
+                background: url('../../icons/settings.svg');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                border-style: none;
+            }
+            .settings__text{
+                color: $text2-color;
+                font-size: $text-1;
+                width: max-content;
+            }
+        }
+        .account-managment__policies{
+            cursor: pointer;
+            margin-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            .policies__icon{
+                width: 1rem;
+                height: 1.25rem;
+                display: inline-block;
+                background: url('../../icons/policies.svg');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                border-style: none;
+            }
+            .policies__text{
+                color: $text2-color;
+                font-size: $text-1;
+                width: max-content;
+            }
+        }
+    }
+    .profile-menu__logout{
+        margin-top: 0.5rem;
+        
+        .logout__icon{
+            cursor: pointer;
+            width: 1rem;
+            height: 1.25rem;
+            display: inline-block;
+            background: url('../../icons/logout.svg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border-style: none;
+        }
+
+        .logout__text{
+            cursor: pointer;
+            color: $text2-color;
+            font-size: $text-1;
+            width: max-content;
+        }
+    }
+}
+

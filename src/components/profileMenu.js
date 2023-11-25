@@ -4,12 +4,12 @@ let email = "besix.group@besix.be";
 
 const ProfileMenu = () => {
     return ( 
-        <ul className='profile__menu'>
-            <li className='menu__personal-information'>
+        <ul className='container__profile-menu'>
+            <li className='profile-menu__personal-information'>
                 <span className='personal-information__group'>{groupName}</span>
                 <span className='personal-information__email'>{email}</span>
             </li>
-            <li className='menu__account-managment'>
+            <li className='profile-menu__account-managment'>
                 <div className='account-managment__settings'>
                     <span className='settings__icon'></span>
                     <span className='settings__text'>Profile settings</span>
@@ -19,7 +19,7 @@ const ProfileMenu = () => {
                     <span className='policies__text'>Our policies</span>
                 </div>
             </li>
-            <li className='menu__logout'>
+            <li className='profile-menu__logout'>
                 <span className='logout__icon'></span>
                 <span className='logout__text'>Log out</span>
             </li>

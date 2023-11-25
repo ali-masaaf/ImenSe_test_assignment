@@ -1,7 +1,7 @@
 .container__input-search{
     width: 24.5rem;
     height: 2rem;
-    background-color: $area-colour;
+    background-color: $area-color;
     border-radius: 0.3125rem;
     margin-left: 3.2rem;
     padding: 0 0.8rem;
@@ -15,13 +15,13 @@
     }
     .input-search__text{
         font-family: 'lato';
-        background-color: $area-colour;
+        background-color: $area-color;
         padding-left: 0.7rem;
-        color: $text2-colour;
+        color: $text2-color;
         border-style: none;
         outline: none;
         &::placeholder {
-            color: $text4-colour;
+            color: $text4-color;
             font-size: $subtitle-2;
             opacity: 1; /* Firefox */
         }
