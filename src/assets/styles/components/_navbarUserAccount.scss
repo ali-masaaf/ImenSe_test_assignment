@@ -1,0 +1,65 @@
+.container__navbar-user-account{
+    position: relative;
+    .navbar-user-account__notification {
+        cursor: pointer;
+        width: 0.9375rem;
+        height: 1.14256rem;
+        display: inline-block;
+        background: url('../../icons/notification.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+    }
+
+    .navbar-user-account__language{
+        cursor: pointer;
+        width: 1.1875rem;
+        height: 1.1875rem;
+        display: inline-block;
+        background: url('../../icons/english.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-style: none;
+        .language__container{
+            display: none;
+            position: absolute;
+            top: 3.28rem;
+            left: 2.6rem;
+            .container__menu-hiden-hover-area{
+                display: none;
+                position: absolute;
+                top: -3rem;
+                left: 0;
+                display: inline-block;
+                height: 3.3rem;
+                width: 3rem;
+            }
+            @import 'languagesCard';
+        }
+        .language__container--down{
+            display: block;
+            .container__menu-hiden-hover-area{
+                display: inline-block;
+            }
+        }
+    }
+    
+    .navbar-user-account__languages-dropdown-card--down{
+
+        .languages-dropdown-card__menu-hiden-hover-area{
+            display: inline-block;
+        }
+    }
+
+    .navbar-user-account__profile-miniature{
+        @import 'pofileMiniature';
+
+        .profile-menu__hiden-hover-area{
+            height: 3.3rem;
+            width: 7rem;
+            display: inline-block;
+            position: absolute;
+            top: 0rem;
+        }
+    }
+}
