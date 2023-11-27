@@ -45,3 +45,24 @@
     justify-content: flex-start;
     gap: 0.5rem;
 }
+
+
+.testComponents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.editTraining__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 2rem;
+}

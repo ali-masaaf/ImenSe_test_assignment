@@ -23,23 +23,29 @@
 
 // 4. Layout-related sections
 @import
+  'layout/pagesLayout',
   'layout/grid',
   'layout/flex';
 
 // 5. Components
 @import 
+  'components/buttons/butonPrimaryTypeFilled',
+  'components/buttons/buttonSecondaryTypeText',
+  'components/testComponents',
+  'components/textTitel1',
   'components/profileMenu',
   'components/pofileMiniature',
   'components/languagesCard',
   'components/navbarUserAccount',
   'components/inputSearch',
-  'components/app.scss',
-  'components/main.scss',
   'components/navbarLinks.scss',
   'components/navbar.scss';
 
 
 // 6. Page-specific styles
+
+@import 
+'pages/editTraining/editTrainingHeader';
 
 
 

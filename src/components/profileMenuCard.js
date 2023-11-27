@@ -2,7 +2,7 @@ import React from "react";
 let groupName = "BESIX Group";
 let email = "besix.group@besix.be";
 
-const ProfileMenu = () => {
+const ProfileMenuCard = () => {
     return ( 
         <ul className='container__profile-menu'>
             <li className='profile-menu__personal-information'>
@@ -27,4 +27,4 @@ const ProfileMenu = () => {
      );
 }
 
-export default ProfileMenu;
+export default ProfileMenuCard;

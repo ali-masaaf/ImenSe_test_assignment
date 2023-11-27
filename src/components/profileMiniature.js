@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileMenu from "./profileMenu";
+import ProfileMenuCard from "./profileMenuCard";
 
 const PofileMiniature = (props) => {
     const handleMouseEnterLeaveProfileMenu = () => {
@@ -19,7 +19,7 @@ const PofileMiniature = (props) => {
         </div>
         <div className="profile-miniature__container" id="profile-miniature__container" onMouseEnter={handleMouseEnterLeaveProfileMenu} onMouseLeave={handleMouseEnterLeaveProfileMenu}>
             <span className='container__hidden-hover-area'/>
-            <ProfileMenu/>
+            <ProfileMenuCard/>
         </div>
     </div> 
     );
