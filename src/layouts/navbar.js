@@ -1,7 +1,7 @@
 import React from 'react';
-import InputSearch from '../components/inputSearch'; 
-import NavbarLinks from '../components/navbarLinks';
-import NavbarUserAccout from '../components/navbarUserAsccount';
+import InputSearch from '../components/inputs/inputSearch'; 
+import NavbarLinks from '../components/navBarComponents/navbarLinks';
+import NavbarUserAccout from '../components/navBarComponents/navbarUserAsccount';
 
 const navbar = () => {
     return(

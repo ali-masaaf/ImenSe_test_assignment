@@ -1,5 +1,5 @@
 import React from "react";
-import EditTrainingHeader from '../components/editTrainingHeader'
+import EditTrainingHeader from '../layouts/editTrainingHeader'
 
 const editTraining = () => {
     return ( 

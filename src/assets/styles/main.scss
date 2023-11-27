@@ -23,24 +23,23 @@
 
 // 4. Layout-related sections
 @import
-  'layout/pagesLayout',
-  'layout/grid',
-  'layout/flex';
+'layout/pagesLayout',
+'layout/pofileMiniature',
+'layout/navbar',
+'layout/grid',
+'layout/flex';
 
 // 5. Components
 @import 
+  'components/inputs/inputSearch',
   'components/buttons/butonPrimaryTypeFilled',
   'components/buttons/buttonSecondaryTypeText',
   'components/testComponents',
-  'components/textTitel1',
-  'components/profileMenu',
-  'components/pofileMiniature',
-  'components/languagesCard',
-  'components/navbarUserAccount',
-  'components/inputSearch',
-  'components/navbarLinks.scss',
-  'components/navbar.scss';
-
+  'components/texts/textTitel1',
+  'components/navbarComponents/navbarUserAccount',
+  'components/navbarComponents/navbarLinks',
+  'components/cards/profileMenuCard',
+  'components/cards/languagesCard';
 
 // 6. Page-specific styles
 

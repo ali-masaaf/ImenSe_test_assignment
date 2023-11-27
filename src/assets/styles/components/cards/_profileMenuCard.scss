@@ -1,4 +1,4 @@
-.container__profile-menu{
+.container__profile-menu-card{
     display: block;
     cursor: default;
     color: $text1-color;
@@ -9,7 +9,7 @@
     background-color: $forground-color;
     box-shadow: $card-shadow;
     
-    .profile-menu__personal-information{
+    .profile-menu-card__personal-information{
         border-bottom: 1px solid #{$text5-color}50;
         .personal-information__group{
             font-family: 'lato-bold';
@@ -25,7 +25,7 @@
         }
     }
 
-    .profile-menu__account-managment{
+    .profile-menu-card__account-managment{
         border-bottom: 1px solid #{$text5-color}50;
         font-family: 'lato';
         .account-managment__settings{
@@ -36,7 +36,7 @@
                 width: 1rem;
                 height: 1.001rem;
                 display: inline-block;
-                background: url('../../icons/settings.svg');
+                background: url('../../../icons/settings.svg');
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
                 border-style: none;
@@ -55,7 +55,7 @@
                 width: 1rem;
                 height: 1.25rem;
                 display: inline-block;
-                background: url('../../icons/policies.svg');
+                background: url('../../../icons/policies.svg');
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
                 border-style: none;
@@ -67,7 +67,7 @@
             }
         }
     }
-    .profile-menu__logout{
+    .profile-menu-card__logout{
         margin-top: 0.5rem;
         
         .logout__icon{
@@ -75,7 +75,7 @@
             width: 1rem;
             height: 1.25rem;
             display: inline-block;
-            background: url('../../icons/logout.svg');
+            background: url('../../../icons/logout.svg');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             border-style: none;

@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileMenuCard from "./profileMenuCard";
+import ProfileMenuCard from "../cards/profileMenuCard";
 
 const PofileMiniature = (props) => {
     const handleMouseEnterLeaveProfileMenu = () => {

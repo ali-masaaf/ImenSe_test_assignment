@@ -1,5 +1,5 @@
+import React from "react";
 const NavbarLinks = () => {
-
 
     const handleMenu = () => {
         let navbarLinksUsers = document.getElementById('navbar-links__users');

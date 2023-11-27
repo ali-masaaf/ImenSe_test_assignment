@@ -1,7 +1,7 @@
 import React from "react";
-import TextTitle1 from './textTitle1'
-import ButtonSecondaryTypeText from './buttons/buttonSecondaryTypeText'
-import ButonPrimaryTypeFilled from './buttons/butonPrimaryTypeFilled'
+import TextTitle1 from '../components/texts/textTitle1'
+import ButtonSecondaryTypeText from '../components/buttons/buttonSecondaryTypeText'
+import ButonPrimaryTypeFilled from '../components/buttons/butonPrimaryTypeFilled'
 
 const editTrainingHeader = () => {
     return ( 

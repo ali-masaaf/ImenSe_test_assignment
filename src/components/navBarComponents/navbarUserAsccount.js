@@ -1,5 +1,5 @@
 import React from "react";
-import LanguagesCard from "./languagesCard";
+import LanguagesCard from "../cards/languagesCard";
 import PofileMiniature from "./profileMiniature";
 
 

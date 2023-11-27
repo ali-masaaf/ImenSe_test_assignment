@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './navbar';
-import EditTraining from '../components/editTrainingHeader'
+import EditTraining from './editTrainingHeader'
 
 const PagesLayout = () => {
     return(

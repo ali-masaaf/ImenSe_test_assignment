@@ -5,7 +5,7 @@
         width: 0.9375rem;
         height: 1.14256rem;
         display: inline-block;
-        background: url('../../icons/notification.svg');
+        background: url('../../../icons/notification.svg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border-style: none;
@@ -16,7 +16,7 @@
         width: 1.1875rem;
         height: 1.1875rem;
         display: inline-block;
-        background: url('../../icons/english.svg');
+        background: url('../../../icons/english.svg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border-style: none;
@@ -34,7 +34,7 @@
                 height: 3.3rem;
                 width: 3rem;
             }
-            @import 'languagesCard';
+            @import '../cards/languagesCard';
         }
         .language__container--down{
             display: block;
@@ -52,9 +52,9 @@
     }
 
     .navbar-user-account__profile-miniature{
-        @import 'pofileMiniature';
+        @import '../../layout/pofileMiniature';
 
-        .profile-menu__hiden-hover-area{
+        .profile-menu-card__hiden-hover-area{
             height: 3.3rem;
             width: 7rem;
             display: inline-block;
