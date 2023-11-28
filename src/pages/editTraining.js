@@ -21,7 +21,26 @@ const editTraining = () => {
 
                 </div>
                 <div className="editTraining__trainingQuizConfiguration">
+                    <span className="editTraining__left-arrow"></span>
+                    <div className="trainingQuizConfiguration__">
 
+                    </div>
+                    <div className="trainingQuizConfiguration__">
+
+                    </div>
+                    <div className="trainingQuizConfiguration__">
+
+                    </div>
+                    <div className="trainingQuizConfiguration__">
+
+                    </div>
+                    <div className="trainingQuizConfiguration__">
+
+                    </div>
+                    <div className="trainingQuizConfiguration__">
+
+                    </div>
+                    <span className="editTraining__right-arrow"></span>
                 </div>
             </div>
         </>

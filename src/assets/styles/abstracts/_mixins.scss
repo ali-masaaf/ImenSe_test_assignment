@@ -32,3 +32,10 @@
   }
 }
 
+@mixin default-card($height, $width) {
+    height: $height;
+    width: $width;
+    background-color: $forground-color;
+    border-radius: $default-radius;
+    box-shadow: $card-shadow;
+}

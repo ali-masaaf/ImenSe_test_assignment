@@ -82,8 +82,13 @@
         display: flex;
 
     }
-    .editContent__trainingFile{
-        display: flex;
-    }
 
+}
+
+.editTraining__trainingQuizConfiguration{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
 }
