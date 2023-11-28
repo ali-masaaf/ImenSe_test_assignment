@@ -54,15 +54,36 @@
     align-items: center;
 }
 
-.body__main{
+.main__editTraining{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 .editTraining__header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: flex-start;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.editTraining__editContent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    .editContent__informations{
+        display: flex;
+    }
+    .editContent__image{
+        display: flex;
+
+    }
+    .editContent__trainingFile{
+        display: flex;
+    }
+
 }

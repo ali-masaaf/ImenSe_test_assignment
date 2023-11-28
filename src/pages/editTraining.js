@@ -5,15 +5,24 @@ const editTraining = () => {
     return ( 
         <>
             <div className="main__editTraining">
-                    <EditTrainingHeader/>
+                <EditTrainingHeader/>
                 <div className="editTraining__editContent">
+                    <div className="editContent__informations">
+
+                    </div>
+                    <div className="editContent__image">
+
+                    </div>
+                    <div className="editContent__trainingFile">
+
+                    </div>
                 </div>
-            </div>
-            <div className="main__trainingQuizQuestions">
+                <div className="editTraining__trainingQuizQuestions">
 
-            </div>
-            <div className="main__trainingQuizConfiguration">
+                </div>
+                <div className="editTraining__trainingQuizConfiguration">
 
+                </div>
             </div>
         </>
      );

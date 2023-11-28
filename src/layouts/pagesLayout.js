@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './navbar';
-import EditTraining from './editTrainingHeader'
+import { Outlet, Link } from "react-router-dom";
 
 const PagesLayout = () => {
     return(
         <>
             <Navbar/>
             <div className="body__main">
-                <EditTraining/>
+                <Outlet/>
             </div>
         </>
 

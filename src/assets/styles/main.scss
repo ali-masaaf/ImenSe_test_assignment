@@ -23,11 +23,11 @@
 
 // 4. Layout-related sections
 @import
-'layout/pagesLayout',
-'layout/pofileMiniature',
-'layout/navbar',
-'layout/grid',
-'layout/flex';
+  'layout/pagesLayout',
+  'layout/pofileMiniature',
+  'layout/navbar',
+  'layout/grid',
+  'layout/flex';
 
 // 5. Components
 @import 
@@ -44,7 +44,7 @@
 // 6. Page-specific styles
 
 @import 
-'pages/editTraining/editTrainingHeader';
+'pages/editTraining/editTraining';
 
 
 

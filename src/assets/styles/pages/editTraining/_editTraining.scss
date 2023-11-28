@@ -1,0 +1,60 @@
+.main__editTraining{
+    /**
+     * Edit Training Page Header
+     */
+    .editTraining__header{
+        width: 100%;
+        .header__buttonSecondaryTypeText{
+            margin-left: auto;
+        }
+    }
+
+    .editTraining__editContent{
+        .editContent__informations{
+            background-color: $forground-color;
+            border-radius: $default-radius;
+            box-shadow: $card-shadow;
+            width: 33.25rem;
+            height: 19.4375rem;
+        }
+        .editContent__image{
+            background-color: $forground-color;
+            border-radius: $default-radius;
+            box-shadow: $card-shadow;
+
+            width: 20.5625rem;
+            height: 19.4375rem;
+
+        }
+        .editContent__trainingFile{
+            background-color: $forground-color;
+            border-radius: $default-radius;
+            box-shadow: $card-shadow;
+
+            width: 13.3125rem;
+            height: 19.4375rem;
+            
+        }
+
+    }
+
+    .editTraining__trainingQuizQuestions{
+
+        background-color: $forground-color;
+        border-radius: $default-radius;
+        box-shadow: $card-shadow;
+    
+        width: auto;
+        height: 40.125rem;
+    }
+    
+    .editTraining__trainingQuizConfiguration{
+        position: absolute;
+        background-color: $forground-color;
+        border-radius: $default-radius;
+        box-shadow: $card-shadow;
+    }
+
+
+}
+
