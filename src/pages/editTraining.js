@@ -21,7 +21,7 @@ const editTraining = () => {
 
                 </div>
                 <div className="editTraining__trainingQuizConfiguration">
-                    <span className="editTraining__left-arrow"></span>
+                    <span className="trainingQuizConfiguration__left-arrow"></span>
                     <div className="trainingQuizConfiguration__">
 
                     </div>
@@ -40,7 +40,7 @@ const editTraining = () => {
                     <div className="trainingQuizConfiguration__">
 
                     </div>
-                    <span className="editTraining__right-arrow"></span>
+                    <span className="trainingQuizConfiguration__right-arrow"></span>
                 </div>
             </div>
         </>
