@@ -1,3 +1,5 @@
+import React  from 'react'
+
 const ButtonAddNewTypeTextIcon = () => {
     return ( 
     <div className="container__button-add-new-type-text-icon">

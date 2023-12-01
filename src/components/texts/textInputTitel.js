@@ -1,3 +1,4 @@
+import React  from 'react'
 
 const TextInputTitel = (props) => {
     const text = props.text;
