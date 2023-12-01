@@ -87,10 +87,11 @@
             gap: 0.5rem;
             align-content: flex-start;
             justify-content: flex-start;
-            .title__container{
+            .functions_header,.departments_header{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                align-items: center
             }
         }
         

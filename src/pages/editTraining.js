@@ -6,6 +6,8 @@ import DropDownListTypeIconTextIcon from '../components/dropDownLists/dropDownLi
 import DropDownListTypeTextIcon from '../components/dropDownLists/dropDownListTypeTextIcon'
 import InputTextTypeTextIconIcon from '../components/inputs/inputTextTypeTextIconIcon'
 import InputTextArea from  '../components/inputs/inputTextArea'
+import TextNotice2 from '../components/texts/textNotice2'
+
 
 const editTraining = () => {
     return ( 
@@ -61,9 +63,16 @@ const editTraining = () => {
                             </div>
                         </div>
                         <div className="inoformations__departments">
-                            <div className="departments__title">
+                        <div className="departments_header">
+                            <div className="header__title">
                                 <div className="title__container">
-                                    <TextInputTitel text="Departments"/>
+                                    <TextInputTitel text="Department"/>
+                                    </div>
+                                </div>
+                                <div className="header__notice">
+                                    <div className="notice_container">
+                                    <TextNotice2 text="Optional"/>
+                                </div>
                                 </div>
                             </div>
                             <div className="departments__container">
@@ -71,15 +80,23 @@ const editTraining = () => {
                             </div>
                         </div>
                         <div className="inoformations__functions">
-                            <div className="functions__title">
-                                <div className="title__container">
-                                    <TextInputTitel text="Functions"/>
+                            <div className="functions_header">
+                                <div className="header__title">
+                                    <div className="title__container">
+                                        <TextInputTitel text="Functions"/>
+                                    </div>
+                                </div>
+                                    <div className="header__notice">
+                                        <div className="notice_container">
+                                        <TextNotice2 text="Optional"/>
+                                    </div>
                                 </div>
                             </div>
                             <div className="functions__container">
                                 <DropDownListTypeTextIcon icon="none" options={['Select functions', 'Lorem Ipsum', 'Lorem Ipsum', 'Lorem Ipsum', 'Lorem Ipsum']}/>
                             </div>
-                        </div>
+                        
+                            </div>
                         <div className="inoformations__description">
                             <InputTextArea/>
                         </div>
