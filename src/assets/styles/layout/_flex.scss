@@ -87,7 +87,7 @@
             gap: 0.5rem;
             align-content: flex-start;
             justify-content: flex-start;
-            .functions_header,.departments_header{
+            .title__container, .functions_header,.departments_header{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
