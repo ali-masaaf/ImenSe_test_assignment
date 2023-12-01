@@ -1,0 +1,15 @@
+.container__inputTextArea{
+    .inputTextArea__area{
+        height: 8.5625rem; 
+        width: 100%;
+        border-color: $text5-color;
+        padding: 0.5rem;
+        font-size: $text-2;
+        color: $text1-color;
+        &:focus{
+            outline: none 
+        }
+
+    }
+
+}

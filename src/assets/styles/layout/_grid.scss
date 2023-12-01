@@ -1,9 +1,27 @@
 /**
  *Application layout grid
  */
- .body__app {
-    display: grid;
-    grid-template-rows: 4.375rem 1fr; /* Navbar takes auto height, main area takes remaining space */
-    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
-  }
-  
+.body__app {
+  display: grid;
+  grid-template-rows: 4.375rem 1fr; /* Navbar takes auto height, main area takes remaining space */
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+.editContent__informations {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1rem;
+}
+    
+.inoformations__category { grid-area: 1 / 1 / 2 / 4; }
+.inoformations__topic {grid-area: 1 / 4 / 2 / 8; }
+.inoformations__valid-for { grid-area: 1 / 8 / 2 / 10; }
+.inoformations__training { grid-area: 2 / 1 / 3 / 7; }
+.inoformations__assign-to { grid-area: 2 / 7 / 3 / 10; }
+.inoformations__departments { grid-area: 3 / 1 / 4 / 4; }
+.inoformations__description { grid-area: 3/4/5/10;}
+.inoformations__functions { grid-area: 4/1/5/4; }

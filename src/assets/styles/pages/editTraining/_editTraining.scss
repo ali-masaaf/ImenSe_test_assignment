@@ -11,13 +11,54 @@
 
     .editTraining__editContent{
         .editContent__informations{
-            @include default-card(19.4375rem, 33.25rem) 
+            @include default-card(auto, auto);
+            padding: 1rem 1.5rem;
+            width: 10.25rem;
+            & > *{
+                //background-color: #f5f5f5;
+                height: auto;
+                border-radius: $default-radius;
+            }
+            .inoformations__category { 
+                background-color: $forground-color;
+                width: auto;
+                .title__container > * {
+                    vertical-align:middle;  // Align children to middle of line
+                }
+            }
+            .inoformations__topic { 
+                background-color: $forground-color;
+                .title__container > * {
+                    vertical-align:middle;  // Align children to middle of line
+                }
+            }
+            .inoformations__valid-for { 
+                background-color: $forground-color;
+                .title__container > * {
+                    vertical-align:middle;  // Align children to middle of line
+                }
+             }
+            .inoformations__training { 
+                
+            }
+            .inoformations__assign-to {
+                
+            }
+            .inoformations__departments {
+                
+            }
+            .inoformations__description { 
+                
+            }
+            .inoformations__functions {
+                
+            }
         }
         .editContent__image{
-            @include default-card(19.4375rem, 20.5625rem) 
+            @include default-card(auto, auto) 
         }
         .editContent__trainingFile{
-            @include default-card(19.4375rem, 13.3125rem) 
+            @include default-card(auto, auto) 
            
         }
 
@@ -29,6 +70,7 @@
     
     .editTraining__trainingQuizConfiguration{
         position: relative;
+        
         
         [class^="trainingQuizConfiguration__"]{
             @include default-card(9.75rem, 12rem) 
