@@ -1,0 +1,14 @@
+.container__separation-line-type-text{
+    width: auto;
+    display: inline-block;
+    color: $text5-color;
+    .separation-line-type-text__text{
+        margin: 0 0.5rem;
+    }
+    .separation-line-type-text__line1, .separation-line-type-text__line2{
+        display: inline-block;
+        height: 2px;
+        width: 6vw;
+        border-bottom: 1px solid $text5-color;
+    }
+}

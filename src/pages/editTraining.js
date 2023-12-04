@@ -7,7 +7,11 @@ import DropDownListTypeTextIcon from '../components/dropDownLists/dropDownListTy
 import InputTextTypeTextIconIcon from '../components/inputs/inputTextTypeTextIconIcon'
 import InputTextArea from  '../components/inputs/inputTextArea'
 import TextNotice2 from '../components/texts/textNotice2'
-
+import TextNotice1 from '../components/texts/textNotice1'
+import ImageUpload from '../components/imageUpload'
+import MessageSuccesTypeTextIcon from '../components/messageSuccesTypeTextIcon'
+import SeparationLineTypeText from '../components/separationLines/separationLineTypeText'
+import InputTextTypeText from '../components/inputs/inputTextTypeText'
 
 const editTraining = () => {
     return ( 
@@ -101,10 +105,68 @@ const editTraining = () => {
                             <InputTextArea/>
                         </div>
                     </div>
-                    <div className="editContent__image">
-
+                    <div className="editContent__image-upload">
+                        <div className="image-upload__titel">
+                            <div className="title__container">
+                                <TextInputTitel text="Image"/>
+                            </div>
+                        </div>
+                        <div className="image-upload__content">
+                            <div className="content__image-upload">
+                                <div className="image-upload__container">
+                                    <ImageUpload type="image"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="image-upload__notice">
+                            <div className="notice_container">
+                                <TextNotice1 text="*Only JPG, PNG files are allowed. Image must be less than 2 MB"/>
+                            </div>
+                        </div>
                     </div>
                     <div className="editContent__trainingFile">
+                        <div className="trainingFile__titel">
+                            <div className="title__container">
+                                <TextInputTitel text="Training file"/>
+                            </div>
+                        </div>
+                        <div className="trainingFile__content">
+                            <div className="content__container">
+                                <ImageUpload type="image"/>
+                            </div>
+                            <div className="content__message-succes">
+                                <div className="message-succes__container">
+                                    <MessageSuccesTypeTextIcon text="workingAtHeight.pdf"/>
+                                </div>
+                            </div>
+                            <div className="content__notice">
+                                <div className="notice_container">
+                                    <TextNotice1 text="*Only Video, PDF and SlideShow files are allowed."/>
+                                </div>
+                            </div>
+                            <div className="">
+
+                            </div>
+                            <div className="content__or-separator">
+                                <div className="or-separator__container">
+                                    <SeparationLineTypeText text="Or"/>
+                                </div>
+                            </div>
+                            
+                            <div className="content__media-url">
+                                <div className="media-url__titel">
+                                    <div className="title__container">
+                                        <TextInputTitel text="Media URL"/>
+                                    </div>
+                                </div>
+                                <div className="media-url__input">
+                                    <div className="input__container">
+                                        <InputTextTypeText text="https://www.pdf.com"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className="editTraining__trainingQuizQuestions">

@@ -1,0 +1,17 @@
+.container__message-succes-type-text-icon{
+    width: 11.0625rem;
+    height: 2.3125rem;
+    border-radius:  $default-radius;
+    background-color: $success-color;
+    font-size: $text-3;
+    padding: 0.5rem;
+    .message-succes-type-text-icon__icon{
+        height: 1.5rem;
+        width: 1.5rem;
+        background: url('../../icons/close_rounded.svg');
+        background-size: 1.5rem 1.5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+}

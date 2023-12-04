@@ -31,17 +31,21 @@
 
 // 5. Components
 @import 
+  'components/separationLines/separationLineTypeText',
+  'components/messageSuccesTypeTextIcon',
+  'components/imageUpload',
   'components/dropDownLists/dropDownListTypeTextIcon',
   'components/dropDownLists/dropDownListTypeIconTextIcon',
+  'components/texts/textNotice1',
   'components/texts/textNotice2',
   'components/texts/textInputTitel',
+  'components/inputs/inputTextTypeText',
   'components/inputs/InputTextArea',
-  'components/inputs/_inputTextTypeTextIconIcon',
+  'components/inputs/inputTextTypeTextIconIcon',
   'components/inputs/inputSearch',
   'components/buttons/buttonAddNewTypeTextIcon',
   'components/buttons/butonPrimaryTypeFilled',
   'components/buttons/buttonSecondaryTypeText',
-  'components/testComponents',
   'components/texts/textTitel1',
   'components/navbarComponents/navbarUserAccount',
   'components/navbarComponents/navbarLinks',

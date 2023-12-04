@@ -1,0 +1,26 @@
+.container__input-text-type-text{
+    width: 15vw;
+    height: 2.25rem;
+    background-color: $forground-color;
+    border-radius: 0.3125rem;
+    border: 1px solid $text5-color;
+    padding: 0.4rem 0;
+    margin-top: 0.5rem;
+    input{
+        font-family: 'lato';
+        font-size: $text-2;
+        width: 100%;
+        padding-left: 0.7rem;
+        color: $text1-color;
+        border-style: none;
+        outline: none;
+        &::placeholder {
+            color: $text5-color;
+            font-size: $subtitle-2;
+            opacity: 1; /* Firefox */
+        }
+        &:focus-visible {
+            border-style: none;
+        }
+    }
+}
